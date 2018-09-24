@@ -5,7 +5,6 @@ http.createServer(function (req, res) {
     
     function login(callback) {
         var CLIENT_ID = 'dbffe28619a149ff8c0776df19977ff0';
-        var REDIRECT_URI = 'http://jmperezperez.com/spotify-oauth-jsfiddle-proxy/';
         var REDIRECT_URI = 'https://cennek.github.io/';
         function getLoginURL(scopes) {
             return 'https://accounts.spotify.com/authorize?client_id=' + CLIENT_ID +
